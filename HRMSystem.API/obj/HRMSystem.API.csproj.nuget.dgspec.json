@@ -1,0 +1,203 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.API/HRMSystem.API.csproj": {}
+  },
+  "projects": {
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.API/HRMSystem.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mursal/Projects/HRMSystem/HRMSystem.API/HRMSystem.API.csproj",
+        "projectName": "HRMSystem.API",
+        "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.API/HRMSystem.API.csproj",
+        "packagesPath": "/Users/mursal/.nuget/packages/",
+        "outputPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mursal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj": {
+                "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj",
+        "projectName": "HRMSystem.Business",
+        "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj",
+        "packagesPath": "/Users/mursal/.nuget/packages/",
+        "outputPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mursal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj": {
+                "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj",
+        "projectName": "HRMSystem.DataAccess",
+        "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj",
+        "packagesPath": "/Users/mursal/.nuget/packages/",
+        "outputPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mursal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
