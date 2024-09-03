@@ -1,0 +1,16 @@
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/bin/Debug/net8.0/HRMSystem.Business.deps.json
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/bin/Debug/net8.0/HRMSystem.Business.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/bin/Debug/net8.0/HRMSystem.Business.pdb
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/bin/Debug/net8.0/HRMSystem.DataAccess.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/bin/Debug/net8.0/HRMSystem.DataAccess.pdb
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.csproj.AssemblyReference.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.AssemblyInfoInputs.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.AssemblyInfo.cs
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.csproj.CoreCompileInputs.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.sourcelink.json
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSyste.66E4FBB7.Up2Date
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/refint/HRMSystem.Business.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/HRMSystem.Business.pdb
+/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/Debug/net8.0/ref/HRMSystem.Business.dll

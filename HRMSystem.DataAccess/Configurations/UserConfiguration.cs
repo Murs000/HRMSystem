@@ -17,8 +17,17 @@ namespace HRMSystem.DataAccess.Configurations
             builder.Property(u => u.Role)
                 .HasConversion<string>()
                 .IsRequired();
-
             builder.Property(u => u.CreationDate).IsRequired();
+
+            builder.HasOne(u => u.Creator)
+                .WithMany()
+                .HasForeignKey(u => u.CreatorId)
+                .OnDelete(DeleteBehavior.Restrict); // To avoid cascading delete
+    
+            builder.HasOne(u => u.Modifier)
+                .WithMany()
+                .HasForeignKey(u => u.ModifierId)
+                .OnDelete(DeleteBehavior.Restrict); // To avoid cascading delete
 
             // Seed default admin user
             builder.HasData(new User
@@ -26,7 +35,7 @@ namespace HRMSystem.DataAccess.Configurations
                 Id = 1,
                 Username = "admin",
                 // Password : admin
-                PasswordHash = "f77982e85befc78e24e59d0080aa01834ec9a06e90b231c30d94f026c76e4576",
+                PasswordHash = "RLxOtsWawDlESSGFfMzkTYqlW5x11dGfGR0xB2LcRTg=",
                 PasswordSalt = "40cc50e45cba25c463a4130cd22e7e14",
                 Role = UserRole.Admin.ToString(),
                 IsDeleted = false,

@@ -1,0 +1,13 @@
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/bin/Debug/net8.0/HRMSystem.DataAccess.deps.json
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/bin/Debug/net8.0/HRMSystem.DataAccess.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/bin/Debug/net8.0/HRMSystem.DataAccess.pdb
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.csproj.AssemblyReference.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.AssemblyInfoInputs.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.AssemblyInfo.cs
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.sourcelink.json
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/refint/HRMSystem.DataAccess.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.pdb
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/ref/HRMSystem.DataAccess.dll
