@@ -11,17 +11,15 @@ public class Auditable
     public bool IsDeleted { get; set; }
 
     // Method to set credentials for audit
-    public void SetCredentials(User creator)
+    public void SetCredentials()
     {
         if (CreationDate == default)
         {
             CreationDate = DateTime.UtcNow.AddHours(4);
-            Creator = creator;
         }
         else
         {
             ModificationDate = DateTime.UtcNow.AddHours(4);
-            Modifier = creator;
         }
     }
 }
