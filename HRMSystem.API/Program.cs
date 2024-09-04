@@ -20,6 +20,7 @@ builder.Services.AddControllers();
 
 // Bind JWT settings from appsettings.json using IOptions<>
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
+builder.Services.Configure<FileSettings>(builder.Configuration.GetSection("File"));
 
 builder.Services.AddDbContext<HRMDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
