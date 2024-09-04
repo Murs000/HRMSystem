@@ -38,4 +38,8 @@ public class GenericRepository<TEntity>(HRMDbContext context) : IGenericReposito
     {
         context.Set<TEntity>().Update(entity);
     }
+    public Task<int> SaveChangesAsync()
+    {
+        return context.SaveChangesAsync();
+    }
 }
