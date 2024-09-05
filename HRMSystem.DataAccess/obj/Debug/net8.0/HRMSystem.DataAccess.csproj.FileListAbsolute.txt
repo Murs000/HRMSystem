@@ -11,3 +11,5 @@
 /Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/refint/HRMSystem.DataAccess.dll
 /Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.pdb
 /Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/ref/HRMSystem.DataAccess.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/bin/Debug/net8.0/HRMSystem.DataAccess.runtimeconfig.json
+/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/Debug/net8.0/HRMSystem.DataAccess.genruntimeconfig.cache
