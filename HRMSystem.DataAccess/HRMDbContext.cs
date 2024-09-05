@@ -16,4 +16,5 @@ public class HRMDbContext : DbContext
     {
         modelBuilder.ApplyConfiguration(new UserConfiguration());
     }
+    // Migration Command: dotnet ef database update --startup-project ../HRMSystem.API
 }
