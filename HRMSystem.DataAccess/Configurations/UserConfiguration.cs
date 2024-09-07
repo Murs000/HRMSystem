@@ -12,6 +12,9 @@ namespace HRMSystem.DataAccess.Configurations
         {
             builder.HasKey(u => u.Id);
             builder.Property(u => u.Username).IsRequired().HasMaxLength(100);
+            builder.Property(u => u.Name).IsRequired().HasMaxLength(100);
+            builder.Property(u => u.Surname).IsRequired().HasMaxLength(100);
+            builder.Property(u => u.ExpirienceInCompany).IsRequired();
             builder.Property(u => u.PasswordHash).IsRequired();
             builder.Property(u => u.PasswordSalt).IsRequired();
             builder.Property(u => u.Role)
@@ -34,13 +37,13 @@ namespace HRMSystem.DataAccess.Configurations
             {
                 Id = 1,
                 Username = "admin",
+                Name = "Admin",
+                Surname = "User",
                 // Password : admin
-                PasswordHash = "RLxOtsWawDlESSGFfMzkTYqlW5x11dGfGR0xB2LcRTg=",
-                PasswordSalt = "40cc50e45cba25c463a4130cd22e7e14",
                 Role = UserRole.Admin.ToString(),
                 IsDeleted = false,
-                CreationDate = DateTime.UtcNow,
-            });
+                CreationDate = DateTime.UtcNow.AddHours(4),
+            }.SetPassword("RLxOtsWawDlESSGFfMzkTYqlW5x11dGfGR0xB2LcRTg=", "40cc50e45cba25c463a4130cd22e7e14").SetAuditData(null));
         }
     }
 }

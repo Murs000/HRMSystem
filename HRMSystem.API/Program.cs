@@ -1,4 +1,5 @@
 using System.Text;
+using HRMSystem.Business.MappingProfiles;
 using HRMSystem.Business.Services.Implementations;
 using HRMSystem.Business.Services.Interfaces;
 using HRMSystem.Business.Settings;
@@ -24,6 +25,8 @@ builder.Services.Configure<FileSettings>(builder.Configuration.GetSection("File"
 
 builder.Services.AddDbContext<HRMDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAutoMapper(typeof(UserMapper));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();

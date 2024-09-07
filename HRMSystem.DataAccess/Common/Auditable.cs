@@ -1,4 +1,5 @@
 using HRMSystem.DataAccess.Entities;
+using System.Runtime.InteropServices;
 
 namespace HRMSystem.DataAccess.Common;
 
@@ -13,15 +14,17 @@ public class Auditable
     public bool IsDeleted { get; set; }
 
     // Method to set credentials for audit
-    public void SetCredentials()
+    protected void SetCredentials(int? adminId)
     {
         if (CreationDate == default)
         {
             CreationDate = DateTime.UtcNow.AddHours(4);
+            CreatorId = adminId;
         }
         else
         {
             ModificationDate = DateTime.UtcNow.AddHours(4);
+            ModifierId = adminId;
         }
     }
 }

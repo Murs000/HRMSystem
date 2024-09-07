@@ -8,7 +8,7 @@ using HRMSystem.Business.Services.Interfaces;
 
 namespace HRMSystem.Business.Services.Implementations;
 
-public class UserService(IUserRepository userRepository, IAuthenticationService authService) : IUserService
+public class UserService(IUserRepository userRepository, IAuthenticationService authService, IMapper mapper) : IUserService
 {
     public async Task<UserResponseDTO> LoginAsync(UserLoginDTO loginDTO)
     {
@@ -21,55 +21,30 @@ public class UserService(IUserRepository userRepository, IAuthenticationService 
 
         var token = authService.GenerateJwtToken(user.Id, user.Username, user.Role);
 
-        return new UserResponseDTO
-        {
-            Id = user.Id,
-            Username = user.Username,
-            Role = user.Role,
-            Token = token
-        };
+        var userResponceDTO = mapper.Map<UserResponseDTO>(user);
+        userResponceDTO.Token = token;
+
+        return userResponceDTO;
     }
     public async Task<UserDTO> CreateUserAsync(UserRegisterDTO userRegisterDTO, int adminId)
     {
         var hashedPassword = authService.HashPassword(userRegisterDTO.Password);
 
-        var user = new User
-        {
-            Username = userRegisterDTO.Username,
-            PasswordHash = hashedPassword.passwordHash,
-            PasswordSalt = hashedPassword.passwordSalt,
-            Role = userRegisterDTO.Role,
-            CreatorId = adminId,  // Admin ID who created the user
-            CreationDate = DateTime.UtcNow.AddHours(4)
-        };
+        var user = mapper.Map<User>(userRegisterDTO)
+            .SetPassword(hashedPassword.passwordHash, hashedPassword.passwordSalt)
+            .SetAuditData(adminId);
 
         await userRepository.AddAsync(user);
         await userRepository.SaveChangesAsync();
         
-        return new UserDTO
-        {
-            Id = user.Id,
-            Username = user.Username,
-            Role = user.Role
-        };
+        return mapper.Map<UserDTO>(user);
     }
 
-    // Get all users (Admin/HR only)
+    // Get all users (Admin only)
     public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
     {
         var users = await userRepository.GetAllAsync();
 
-        var userDtos = new List<UserDTO>();
-        foreach(var user in users)
-        {
-            var userDto = new UserDTO
-            {
-                Id = user.Id,
-                Username = user.Username,
-                Role = user.Role,
-            };
-            userDtos.Add(userDto);
-        }
-        return userDtos;
+        return mapper.Map<IEnumerable<UserDTO>>(users);
     }
 }
