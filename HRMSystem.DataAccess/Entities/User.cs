@@ -16,7 +16,7 @@ public class User : EntityBase
     [MaxLength(100)]
     public string? Surname { get; set; }
     [Required]
-    public int ExpirienceInCompany { get; set; }
+    public int ExperienceInCompany { get; set; }
 
     [Required]
     public string PasswordHash { get; private set; }

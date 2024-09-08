@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {}
+    "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {
+    "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
         "projectName": "HRMSystem.DataAccess",
-        "projectPath": "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\obj\\",
         "projectStyle": "PackageReference",

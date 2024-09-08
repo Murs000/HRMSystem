@@ -3,13 +3,14 @@ using HRMSystem.Business.Services;
 using HRMSystem.Business.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace HRMSystem.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
 [Authorize(Roles = "HR")]
-public class HRController(IUserService userService) : ControllerBase
+public class HRController(IExelService exelService) : ControllerBase
 {
     [HttpGet("write-order")]
     public async Task<IActionResult> WriteOrder()
@@ -27,9 +28,14 @@ public class HRController(IUserService userService) : ControllerBase
     }
 
     [HttpGet("workers-export")]
+    [AllowAnonymous]
     public async Task<IActionResult> ExelExport()
     {
-        // Export Workers Exel
-        return Ok();
+        var contentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+        var fileName = "WorkersReport.xlsx";
+
+        var exelArray = await exelService.ExportWorkers();
+
+        return File(exelArray.ToArray(), contentType, fileName);
     }
 }

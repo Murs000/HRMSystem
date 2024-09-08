@@ -29,7 +29,11 @@ builder.Services.AddDbContext<HRMDbContext>(options =>
 builder.Services.AddAutoMapper(typeof(UserMapper));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IExelService, ExelService>();
+
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 builder.Services.AddHttpContextAccessor();

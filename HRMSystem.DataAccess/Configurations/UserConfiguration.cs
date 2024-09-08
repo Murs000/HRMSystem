@@ -14,7 +14,7 @@ namespace HRMSystem.DataAccess.Configurations
             builder.Property(u => u.Username).IsRequired().HasMaxLength(100);
             builder.Property(u => u.Name).IsRequired().HasMaxLength(100);
             builder.Property(u => u.Surname).IsRequired().HasMaxLength(100);
-            builder.Property(u => u.ExpirienceInCompany).IsRequired();
+            builder.Property(u => u.ExperienceInCompany).IsRequired();
             builder.Property(u => u.PasswordHash).IsRequired();
             builder.Property(u => u.PasswordSalt).IsRequired();
             builder.Property(u => u.Role)

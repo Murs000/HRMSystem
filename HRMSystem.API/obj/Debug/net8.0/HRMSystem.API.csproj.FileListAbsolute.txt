@@ -240,3 +240,10 @@ C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\obj\Debug\net8.0\refint\HRMSy
 C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\obj\Debug\net8.0\HRMSystem.API.pdb
 C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\obj\Debug\net8.0\HRMSystem.API.genruntimeconfig.cache
 C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\obj\Debug\net8.0\ref\HRMSystem.API.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\Irony.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\asus\Source\Repos\HRMSystem\HRMSystem.API\bin\Debug\net8.0\XLParser.dll

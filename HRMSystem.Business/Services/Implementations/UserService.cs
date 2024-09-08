@@ -40,7 +40,7 @@ public class UserService(IUserRepository userRepository, IAuthenticationService 
         return mapper.Map<UserDTO>(user);
     }
 
-    // Get all users (Admin only)
+    // Get all users (Admin/HR only)
     public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
     {
         var users = await userRepository.GetAllAsync();
