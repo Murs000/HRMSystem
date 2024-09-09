@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.Business\\HRMSystem.Business.csproj": {}
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.Business\\HRMSystem.Business.csproj": {
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.Business\\HRMSystem.Business.csproj",
+        "projectUniqueName": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj",
         "projectName": "HRMSystem.Business",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.Business\\HRMSystem.Business.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.Business\\obj\\",
+        "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/HRMSystem.Business.csproj",
+        "packagesPath": "/Users/mursal/.nuget/packages/",
+        "outputPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.Business/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mursal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj"
+              "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj": {
+                "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj"
               }
             }
           }
@@ -83,33 +76,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj": {
+    "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
+        "projectUniqueName": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj",
         "projectName": "HRMSystem.DataAccess",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\HRMSystem\\HRMSystem.DataAccess\\HRMSystem.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Source\\Repos\\HRMSystem\\HRMSystem.DataAccess\\obj\\",
+        "projectPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/HRMSystem.DataAccess.csproj",
+        "packagesPath": "/Users/mursal/.nuget/packages/",
+        "outputPath": "/Users/mursal/Projects/HRMSystem/HRMSystem.DataAccess/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mursal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -164,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

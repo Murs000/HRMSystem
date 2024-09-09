@@ -1,4 +1,5 @@
 using System.Text;
+using HRMSystem.API.Controllers;
 using HRMSystem.Business.MappingProfiles;
 using HRMSystem.Business.Services.Implementations;
 using HRMSystem.Business.Services.Interfaces;
@@ -37,6 +38,7 @@ builder.Services.AddScoped<IExelService, ExelService>();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
