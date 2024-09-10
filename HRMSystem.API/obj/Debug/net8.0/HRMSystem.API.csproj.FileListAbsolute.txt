@@ -276,4 +276,4 @@ C:/Users/asus/Source/Repos/HRMSystem/HRMSystem.API/bin/Debug/net8.0/XLParser.dll
 /Users/mursal/Projects/HRMSystem/HRMSystem.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
 /Users/mursal/Projects/HRMSystem/HRMSystem.API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
 /Users/mursal/Projects/HRMSystem/HRMSystem.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
-/Users/mursal/Projects/HRMSystem/HRMSystem.API/bin/Debug/net8.0/DocumentFormat.OpenXml.Framework.dll
+/Users/mursal/Projects/HRMSystem/HRMSystem.API/bin/Debug/net8.0/Newtonsoft.Json.dll
