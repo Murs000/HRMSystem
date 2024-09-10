@@ -50,7 +50,7 @@ namespace HRMSystem.Business.Services.Implementations
 
             var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddHours(2),
+                expires: DateTime.Now.AddHours(_jwtSettings.ExpireAt),
                 signingCredentials: creds
             );
 
