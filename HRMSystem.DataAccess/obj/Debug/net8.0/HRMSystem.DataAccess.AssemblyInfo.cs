@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HRMSystem.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d54322fca6a859d015d23e470804c8c68561091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b089299bc689f7d8ccc4507b9a759c0e44053fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("HRMSystem.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HRMSystem.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
