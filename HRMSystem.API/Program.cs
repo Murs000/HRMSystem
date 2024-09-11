@@ -34,8 +34,10 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddScoped<IExelService, ExelService>();
+builder.Services.AddScoped<IWordService, WordService>();
 
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+builder.Services.AddScoped<ISignatureService, SignatureService>();
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddHttpClient();

@@ -1633,6 +1633,8 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "ClosedXML": "0.102.3",
           "HRMSystem.DataAccess": "1.0.0",
+          "NPOI": "2.7.1",
+          "Newtonsoft.Json": "13.0.3",
           "System.IdentityModel.Tokens.Jwt": "8.0.2"
         },
         "runtime": {

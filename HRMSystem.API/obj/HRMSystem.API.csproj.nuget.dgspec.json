@@ -152,6 +152,14 @@
               "target": "Package",
               "version": "[0.102.3, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.0.2, )"
