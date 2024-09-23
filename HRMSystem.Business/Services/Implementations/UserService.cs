@@ -5,11 +5,23 @@ using AutoMapper;
 using System.Threading.Tasks;
 using HRMSystem.DataAccess.Repositories.Interfaces;
 using HRMSystem.Business.Services.Interfaces;
+using Microsoft.AspNetCore.Http;
+using System.Security.Claims;
 
 namespace HRMSystem.Business.Services.Implementations;
 
-public class UserService(IUserRepository userRepository, IAuthenticationService authService, IMapper mapper) : IUserService
+public class UserService(IUserRepository userRepository, IAuthenticationService authService, IMapper mapper, IHttpContextAccessor httpContextAccessor) : IUserService
 {
+    public async Task<UserDTO> GetCurrentUser()
+    {
+        // Extract the user ID from the JWT token in the HTTP context
+        var userId = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var users = await GetAllUsersAsync();
+        var user = users.First(u=> u.Id == Convert.ToInt32(userId));
+
+        return user;
+    }
+
     public async Task<UserResponseDTO> LoginAsync(UserLoginDTO loginDTO)
     {
         var user = await userRepository.GetByUsernameAsync(loginDTO.Username);
